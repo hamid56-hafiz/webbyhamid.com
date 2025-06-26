@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body style="font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; box-sizing: border-box;
+    margin: 0;
+    padding: 0;">
+    <div class="container" style="background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;">
+        <h2 style="margin-bottom: 20px;
+    text-align: center;">Sign Up</h2>
+        <form id="signupForm">
+            <p><div class="form-group" style="margin-bottom: 15px;">
+                <label for="name" style=" display: block;
+    margin-bottom: 5px;">Full Name:</label>
+                <input type="text" id="name" name="name" style="width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;">
+            </div></p>
+           <p><div class="form-group">
+                <label for="email" style=" display: block;
+    margin-bottom: 5px;">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;" >
+            </div></p>
+           <p></p> <div class="form-group">
+                <label for="password" style=" display: block;
+    margin-bottom: 5px;">Password:</label>
+                <input type="password" id="password" name="password" required style="width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;">
+            </div></p>
+            <p><button type="submit" style="width: 100%;
+                padding: 10px;
+                background-color: #28a745;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;" >Sign Up</button>
+            <div id="error-message" style="color: red;
+            margin-top: 10px;
+            text-align: center;" ></div>
+        </form>
+    </div><p>
+    
+</body>
+</html>
